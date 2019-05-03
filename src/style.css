@@ -1,0 +1,41 @@
+button {
+  width: 100%;
+  height: 60px;
+  background: rgb(123, 200, 156);
+  border: none;
+  font-size: 18px;
+  margin-top: 8px;
+}
+div {
+  height: calc(100% - 68px);
+  overflow: hidden;
+  background: rgb(220, 220, 220);
+  text-align: center;
+  position: relative;
+}
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 8px;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+  height: calc(100vh - 100px);
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+span {
+  color: rgb(140, 140, 140);
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 0;
+  width: 100%;
+  font-family: "Open Sans";
+}
